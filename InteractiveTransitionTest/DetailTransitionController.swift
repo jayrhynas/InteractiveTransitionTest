@@ -61,7 +61,6 @@ class DetailTransitionController: NSObject, UIViewControllerAnimatedTransitionin
               let detailSnapshot = detailVC.detailText.snapshotView(afterScreenUpdates: true)
         else {
             return nil
-
         }
 
         let titleClone = UILabel()
