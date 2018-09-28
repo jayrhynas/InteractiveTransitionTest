@@ -106,7 +106,13 @@ class DetailTransitionController: NSObject, UIViewControllerAnimatedTransitionin
             detailSnapshot.removeFromSuperview()
             
             let completePos: UIViewAnimatingPosition = self.operation == .push ? .end : .start
-            transitionContext.completeTransition(pos == completePos)
+            let didComplete = pos == completePos
+            
+            if transitionContext.transitionWasCancelled && !didComplete {
+                toVC.view.removeFromSuperview()
+            }
+            
+            transitionContext.completeTransition(didComplete)
         }
         
         if operation == .pop {
