@@ -15,6 +15,7 @@
 		9AF95995215EB57A00BACF20 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF95994215EB57A00BACF20 /* RootViewController.swift */; };
 		9AF95997215EB58000BACF20 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF95996215EB58000BACF20 /* DetailViewController.swift */; };
 		9AF95999215EB64900BACF20 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF95998215EB64900BACF20 /* Item.swift */; };
+		9AF9599B215EB8D900BACF20 /* DetailTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9599A215EB8D900BACF20 /* DetailTransitionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9AF95994215EB57A00BACF20 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		9AF95996215EB58000BACF20 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9AF95998215EB64900BACF20 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9AF9599A215EB8D900BACF20 /* DetailTransitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTransitionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				9AF95994215EB57A00BACF20 /* RootViewController.swift */,
 				9AF95998215EB64900BACF20 /* Item.swift */,
 				9AF95996215EB58000BACF20 /* DetailViewController.swift */,
+				9AF9599A215EB8D900BACF20 /* DetailTransitionController.swift */,
 			);
 			path = InteractiveTransitionTest;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF95999215EB64900BACF20 /* Item.swift in Sources */,
+				9AF9599B215EB8D900BACF20 /* DetailTransitionController.swift in Sources */,
 				9AF95985215EB53D00BACF20 /* NavViewController.swift in Sources */,
 				9AF95983215EB53D00BACF20 /* AppDelegate.swift in Sources */,
 				9AF95995215EB57A00BACF20 /* RootViewController.swift in Sources */,

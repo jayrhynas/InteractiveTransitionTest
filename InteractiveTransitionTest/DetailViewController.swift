@@ -22,6 +22,9 @@ class DetailViewController: UIViewController {
         
         view.backgroundColor = .white
         
+        titleLabel.font = UIFont.systemFont(ofSize: 17)
+        detailText.backgroundColor = .clear
+        
         view.addSubview(titleLabel)
         view.addSubview(detailText)
         

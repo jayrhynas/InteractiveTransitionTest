@@ -28,7 +28,11 @@ class RootViewController: UITableViewController {
         return cell
     }
     
+    var lastSelectedIndexPath: IndexPath?
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.lastSelectedIndexPath = indexPath
+        
         let item = items[indexPath.row]
         let detailVC = DetailViewController(item: item)
         navigationController?.pushViewController(detailVC, animated: true)
